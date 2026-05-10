@@ -1,0 +1,13 @@
+id,module,name,description,command,risk,admin_required
+04-01,Network Diagnosis,IP Configuration,Shows full IP configuration,ipconfig /all,SAFE,NO
+04-02,Network Diagnosis,Ping Google,Tests internet connectivity,ping google.com,SAFE,NO
+04-03,Network Diagnosis,Netstat,Shows active network connections,netstat -ano,SAFE,NO
+04-04,Network Diagnosis,Traceroute Google,Traces network route to Google,tracert google.com,SAFE,NO
+05-01,Network Repair,Flush DNS,Clears DNS resolver cache,ipconfig /flushdns,SAFE,NO
+05-02,Network Repair,Winsock Reset,Resets Windows Winsock catalog,netsh winsock reset,MEDIUM,YES
+05-03,Network Repair,IP Reset,Resets TCP/IP stack,netsh int ip reset,MEDIUM,YES
+03-01,System Repair,SFC Scan,Repairs Windows system files,sfc /scannow,MEDIUM,YES
+03-02,System Repair,DISM RestoreHealth,Repairs Windows component store,DISM /Online /Cleanup-Image /RestoreHealth,MEDIUM,YES
+19-01,Security Policy,Defender Quick Scan,Runs Windows Defender quick scan,powershell Start-MpScan -ScanType QuickScan,SAFE,YES
+22-01,Printer Spooler,Restart Spooler,Restarts print spooler service,net stop spooler && net start spooler,MEDIUM,YES
+23-01,RDP Remote,Open Remote Desktop,Launches Remote Desktop client,mstsc,SAFE,NO

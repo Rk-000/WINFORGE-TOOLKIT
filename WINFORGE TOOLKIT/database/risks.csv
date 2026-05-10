@@ -1,0 +1,5 @@
+risk,meaning,confirmation_required,example
+SAFE,Low risk command that mostly reads information or opens a Windows tool,NO,ipconfig /all
+MEDIUM,Can change system settings or restart services but usually safe with admin permission,YES,netsh winsock reset
+HIGH,Can strongly modify Windows settings registry boot network driver or service configuration,YES,reg add or rd /s /q
+CRITICAL,Can cause boot failure data loss account lockout or major system damage,YES,bcdedit bootrec diskpart delete operations

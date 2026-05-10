@@ -1,0 +1,13 @@
+id,detailed_description
+04-01,Displays complete network adapter configuration including IP address DNS gateway DHCP status and adapter information.
+04-02,Sends test packets to Google to check whether the internet connection is working.
+04-03,Shows active network connections listening ports process IDs and connection states.
+04-04,Shows the route packets take from the computer to Google and helps detect routing delay or packet loss.
+05-01,Clears the local DNS resolver cache to fix website loading or DNS resolution problems.
+05-02,Resets the Windows Winsock catalog which can fix broken socket settings caused by software VPN proxy or malware.
+05-03,Resets TCP/IP stack configuration and can fix deep network configuration corruption.
+03-01,Scans protected Windows system files and repairs corrupted or missing files automatically.
+03-02,Repairs the Windows component store used by SFC and Windows Update.
+19-01,Runs a Windows Defender quick scan to check common malware locations.
+22-01,Restarts the Print Spooler service to fix printer queue and printing issues.
+23-01,Opens the Microsoft Remote Desktop client.

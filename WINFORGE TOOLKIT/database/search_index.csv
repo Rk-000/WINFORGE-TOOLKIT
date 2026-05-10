@@ -1,0 +1,13 @@
+keyword,alias,problem_name,command_id
+ip,network info,check ip,04-01
+internet,ping test,no internet,04-02
+connection,netstat,open connection,04-03
+route,traceroute,slow internet route,04-04
+dns,flush dns,dns not working,05-01
+winsock,network reset,internet connected no access,05-02
+tcp ip,ip reset,network stack problem,05-03
+sfc,system file repair,corrupt windows files,03-01
+dism,windows image repair,component store corruption,03-02
+defender,virus scan,malware check,19-01
+printer,spooler restart,printer not printing,22-01
+rdp,remote desktop,remote connection,23-01
